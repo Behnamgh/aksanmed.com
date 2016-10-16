@@ -8,7 +8,7 @@ mongoose.connect("mongodb://behnam:locked@ds041586.mlab.com:41586/menu-items", (
 });
 exports.add = function(data) {
     console.log(data);
-    
+
 };
 exports.delete = function(data) {
     console.log(data);
