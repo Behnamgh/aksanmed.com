@@ -16,7 +16,7 @@ function isLoggedIn(req, res, next) {
 
 
 
-module.exports = function(app, passport) {
+module.exports = function(app, passport, db) {
 
     //get requests
     app.get('/', function(req, res) {
